@@ -13,7 +13,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import {VscTools } from "react-icons/vsc";
+import { VscTools } from "react-icons/vsc";
 
 import pdf from "../Assets/jeevan_prasad.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -31,7 +31,7 @@ function NavBar() {
     }
   }
 
-  const resumeLink ="https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -97,15 +97,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-             <Nav.Item className="fork-btn">
-             <Button variant="primary" href={pdf} target="_blank" className="fork-btn-inner">
-             <AiOutlineDownload /> &nbsp;Resume
-             </Button>
+            <Nav.Item className="fork-btn">
+              <Button variant="primary" href={pdf} target="_blank" className="fork-btn-inner">
+                <AiOutlineDownload /> &nbsp;Resume
+              </Button>
             </Nav.Item>
-           
+
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/kavya-2021/kavya-portfolio"
+                href="https://github.com/jeevan243/Jeevan-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
