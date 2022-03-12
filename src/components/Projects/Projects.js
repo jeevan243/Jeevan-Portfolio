@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import purplleBack from "../../Assets/Projects/purplleBack.jpeg";
-import purplleFront from "../../Assets/Projects/purplleFront.jpeg";
-import desertCart from "../../Assets/Projects/desertCart.jpeg";
-import mentoHome from "../../Assets/Projects/mentoHome.png";
+import purplleBack from "../../Assets/Projects/flatheads-backend.jpg";
+import purplleFront from "../../Assets/Projects/flatheads-frontend.jpg";
+import desertCart from "../../Assets/Projects/americaneagle.jpg";
+// import mentoHome from "../../Assets/Projects/mentoHome.png";
 
 
 
@@ -31,9 +31,9 @@ function Projects() {
               isAblog={true}
               title="Flatheads"
               description="Flatheads is an online application that acts as an e-commerce platform for people to purchase various sneakers. We were a six-person team that worked on this project for five days. My Participation This Project has a Product page. We developed both the frontend and backend for this project."
-              link="https://github.com/kavya-2021/Purplle_Replica"
-              links="https://purplle--clone.herokuapp.com/"
-              blog="https://medium.com/@mayuriwasu2000/purplle-replica-2b62d88166f7"
+              link="https://github.com/jeevan243/flatheads"
+              links="https://flatheads-official.herokuapp.com/"
+              blog="https://medium.com/@reddymanish809/flatheads-clone-unit-4-4056d57a664e"
               techstack="TECH-STACKS: EJS, CSS, mongoDb, ES6 JS, Express.js, Node.js."
               storage="DATABASE : MongoDb Atlas"
 
@@ -44,10 +44,12 @@ function Projects() {
               imgPath={desertCart}
               isBlog={false}
               isDeploy={true}
+              isAblog={true}
               title="American Eagle"
               description="It is an e-commerce web application that allows users to buy men's and women's clothing online. We were a five-person team that worked on this project for five days. The Landing Page is my contribution to this project."
-              link="https://github.com/kavya-2021/DesertCart_Clone"
-              links="https://rahulk612.github.io/desertCart/"
+              link="https://github.com/jeevan243/American-Eagle-Web"
+              links="https://jeevan243.github.io/American-Eagle-Web/index.html"
+              blog="https://medium.com/@jeevanprasad243/our-project-american-eagle-clone-f5e2894b57d4"
               techstack="TECH-STACKS : HTML, CSS, DOM, JavaScript"
               storage="DATABASE : Local Storage"
 
@@ -62,9 +64,9 @@ function Projects() {
               isAblog={true}
               title="Flatheads"
               description="Flatheads is an online application that acts as an e-commerce platform for people to purchase various sneakers. We were a six-person team that worked on this project for five days. Product page is my contribution to this project. We mainly focused on developing Frontend in this project."
-              links="https://nifty-sinoussi-82945f.netlify.app/"
-              link="https://github.com/mayuriwasu1/purplle_clone"
-              blog="https://purpllecloneteam.blogspot.com/2021/12/purplle-website-clone.html"
+              links="https://flatheads-clone.vercel.app/"
+              link="https://github.com/jeevan243/Flatheads-Clone"
+              blog="https://medium.com/@jeevanprasad243/flatheads-clone-construct-week-unit-3-e930d77278c"
               techstack="TECH-STACKS : HTML, CSS, DOM, ES6 JS, localStorage concept"
               storage="DATABASE : Local Storage"
 
