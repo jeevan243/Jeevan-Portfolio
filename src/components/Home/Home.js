@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import kavyaPic from "../../Assets/kavya.png";
+import jeevanPic from "../../Assets/jeevan_prasad.png";
 import Particle from "../Particle";
 import Type from "./Type";
 
@@ -24,12 +24,12 @@ function Home() {
 
               <h1 className="heading-name">
                 I'm
-                <strong className="main-name"> Vankadara Lakshmi Kavya</strong>
+                <strong className="main-name"> Shivarathri Jeevan Prasad</strong>
               </h1>
 
-              <div style={{ padding: 50,paddingLeft: 50,paddingBottom:0, textAlign: "left" }}>
+              <div style={{ padding: 50, paddingLeft: 50, paddingBottom: 0, textAlign: "left" }}>
                 <Type />
-                <p style={{paddingTop:40, textAlign: "justify" }}> I enjoy creating things that live on the internet. My interest in web development started recently but I'm totally in love with the process of learning. I decided to start my professional career in this field. </p>
+                <p style={{ paddingTop: 40, textAlign: "justify" }}> I enjoy having my developments live on the internet. I've had an interest in web development since I was in college. I made the decision to begin my professional career in this field. </p>
               </div>
               {/* <div style={{ paddingLeft: 50,paddingBottom:0, textAlign: "left",color:"#cd5ff8" , fontWeight:"bold",fontSize:"16px" }}> 
                 CONNECT WITH ME : 
@@ -69,11 +69,11 @@ function Home() {
 
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img  src={kavyaPic} alt="home pic" className="img-fluid" />
+              <img src={jeevanPic} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
-        </Container>      
-      </Container>  
+        </Container>
+      </Container>
 
     </section>
   );

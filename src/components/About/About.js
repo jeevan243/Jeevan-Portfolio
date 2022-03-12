@@ -33,41 +33,41 @@ function About() {
             </h1>
             <Aboutcard />
             <Container>
-          <Col md={12} className="home-about-social">
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/kavya-2021"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://linkedin.com/in/lakshmi-kavya-527736161"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/lakshmi_kavya_96/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-      </Container>
+              <Col md={12} className="home-about-social">
+                <ul className="home-about-social-links">
+                  <li className="social-icons">
+                    <a
+                      href="https://github.com/jeevan243"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://www.linkedin.com/in/jeevan-prasad-0989b2125/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://www.instagram.com/jeevan.243/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour home-social-icons"
+                    >
+                      <AiFillInstagram />
+                    </a>
+                  </li>
+                </ul>
+              </Col>
+            </Container>
           </Col>
           <Col
             md={5}
@@ -91,7 +91,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="purple">IDEs'</strong> I code in
         </h1>
-        <IDE/>
+        <IDE />
 
         {/* <Github /> */}
       </Container>

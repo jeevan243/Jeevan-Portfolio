@@ -15,18 +15,19 @@ function Footer() {
           <h3 style={{
             color: "grey",
             fontSize: "10px",
-          }}>  <br/> Inspired from @Soumyajit Behera</h3>
+          }}>  
+          <br/> </h3>
         </Col>
 
         <Col md="4" className="footer-copywright">
-          <h3> Developed by Lakshmi Kavya</h3>
+          <h3> Developed by Jeevan Prasad</h3>
         </Col>
        
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/kavya-2021"
+                href="https://github.com/jeevan243/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -36,7 +37,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/vankadara_kavya"
+                href="https://twitter.com/iamjeevanprasad"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -46,7 +47,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://linkedin.com/in/lakshmi-kavya-527736161"
+                href="https://www.linkedin.com/in/jeevan-prasad-0989b2125/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -56,7 +57,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/lakshmi_kavya_96/"
+                href="https://www.instagram.com/jeevan.243/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

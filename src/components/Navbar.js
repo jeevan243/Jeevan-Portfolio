@@ -15,7 +15,7 @@ import {
 
 import {VscTools } from "react-icons/vsc";
 
-import pdf from "../Assets/Lakshmi_Kavya.pdf";
+import pdf from "../Assets/jeevan_prasad.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
