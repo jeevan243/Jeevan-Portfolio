@@ -29,27 +29,27 @@ function Projects() {
               isBlog={false}
               isDeploy={true}
               isAblog={true}
-              title="Purplle"
-              description="An e-commerce website for purchasing fashion and skincare products. Features unique to this website are , it has a very Dynamic Home page, Advanced filtering options. Skin Type testing and suggestions related to products based on test results.Is has a very vibrant wishlist page and wide range of products."
+              title="Flatheads"
+              description="Flatheads is an online application that acts as an e-commerce platform for people to purchase various sneakers. We were a six-person team that worked on this project for five days. My Participation This Project has a Product page. We developed both the frontend and backend for this project."
               link="https://github.com/kavya-2021/Purplle_Replica"
               links="https://purplle--clone.herokuapp.com/"
               blog="https://medium.com/@mayuriwasu2000/purplle-replica-2b62d88166f7"
-              techstack = "TECH-STACKS : EJS, mongoDb, JS , Express.js, Node.js."
-              storage = "DATABASE : MongoDb Atlas"
+              techstack="TECH-STACKS: EJS, CSS, mongoDb, ES6 JS, Express.js, Node.js."
+              storage="DATABASE : MongoDb Atlas"
 
             />
           </Col>
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={desertCart}
               isBlog={false}
               isDeploy={true}
-              title="Desert Cart"
-              description= "An e-commerce website for purchasing and importing products available for import from different countries.Products can be shipped to 163+ countries Wide variety of products. There are filters that can filter products depending on importing country and delivery time. Achieved most of the features that are similiar to reference website "
+              title="American Eagle"
+              description="It is an e-commerce web application that allows users to buy men's and women's clothing online. We were a five-person team that worked on this project for five days. The Landing Page is my contribution to this project."
               link="https://github.com/kavya-2021/DesertCart_Clone"
               links="https://rahulk612.github.io/desertCart/"
-              techstack = "TECH-STACKS : HTML, CSS, DOM, JavaScript"
-              storage = "DATABASE : Local Storage"
+              techstack="TECH-STACKS : HTML, CSS, DOM, JavaScript"
+              storage="DATABASE : Local Storage"
 
             />
           </Col>
@@ -60,33 +60,33 @@ function Projects() {
               isBlog={false}
               isDeploy={true}
               isAblog={true}
-              title="Purplle"
-              description="An e-commerce website for purchasing fashion and skincare products. Features unique to this website are , it has a very Dynamic Home page, Advanced filtering options. Skin Type testing and suggestions related to products based on test results.Is has a very vibrant wishlist page and wide range of products."
+              title="Flatheads"
+              description="Flatheads is an online application that acts as an e-commerce platform for people to purchase various sneakers. We were a six-person team that worked on this project for five days. Product page is my contribution to this project. We mainly focused on developing Frontend in this project."
               links="https://nifty-sinoussi-82945f.netlify.app/"
               link="https://github.com/mayuriwasu1/purplle_clone"
               blog="https://purpllecloneteam.blogspot.com/2021/12/purplle-website-clone.html"
-              techstack = "TECH-STACKS : HTML, CSS, DOM, ES6 JS, localStorage concept"
-              storage = "DATABASE : Local Storage"
+              techstack="TECH-STACKS : HTML, CSS, DOM, ES6 JS, localStorage concept"
+              storage="DATABASE : Local Storage"
 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mentoHome}
               isBlog={false}
               isDeploy={true}
               isAblog={true}
               title="Mento"
-              description="Mento is a platform which guides its users with the career options. Mento aims to solve that problem by providing first hand in-depth career advice from the biggest and best in each field. You'll get all the information you need to decide if a particular career is for you or not."
-              links="https://mento-clone.netlify.app/"
-              link="https://github.com/kavya-2021/Mento-Clone"
-              blog="https://medium.com/@vankadaralakshmikavya/mento-website-clone-2797b31102bb"
+              description=""
+              links="https://.netlify.app/"
+              link="https://github.com/"
+              blog="https://medium.com"
               techstack = "TECH-STACKS : ReactJs, mongoDb, Express.js, Node.js, react-player, react-router-dom, Styled-Components "
               storage = "DATABASE : MongoDb Atlas & Served by Heroku." 
 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
