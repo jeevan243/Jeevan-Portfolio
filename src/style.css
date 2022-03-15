@@ -738,3 +738,8 @@
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.img-fluid{
+  border-radius: 40%;
+ margin-bottom: 50px;
+}
