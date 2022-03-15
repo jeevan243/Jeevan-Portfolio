@@ -5,11 +5,11 @@ import Particle from "../Particle";
 import Type from "./Type";
  import "../../../src/style.css"
 
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import {
+//   AiFillGithub,
+//   AiFillInstagram,
+// } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (

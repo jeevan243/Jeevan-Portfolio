@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://github.com/kavya-2021/kavya-portfolio" target="_blank">Lakshmi Kavya</a>
+  <a href="https://github.com/kavya-2021/kavya-portfolio" target="_blank">Shivarathri Jeevan Prasad</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />

@@ -14,7 +14,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home3() {
-  const resumeLink = "https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
+ // const resumeLink = "https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
 
   return (
     <Container fluid className="home-about-section" id="about">
