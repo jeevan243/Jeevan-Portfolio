@@ -99,7 +99,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button variant="primary" href={pdf} target="_blank" className="fork-btn-inner">
-                <AiOutlineDownload /> &nbsp;Resume
+                &nbsp;Resume
               </Button>
             </Nav.Item>
 

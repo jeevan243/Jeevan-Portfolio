@@ -1,18 +1,18 @@
- html {
-   --section-background-color: linear-gradient(
+html {
+  --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
     rgba(12, 8, 24, 0.904)
-  ); 
+  );
 
-   --image-gradient: linear-gradient(
+  --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
   );
 
   --imp-text-color: #c770f0;
-} 
+}
 
 .purple {
   color: var(--imp-text-color) !important;
@@ -739,7 +739,12 @@
   display: none !important;
 }
 
-.img-fluid{
-  border-radius: 40%;
- margin-bottom: 50px;
+.img-fluid1 {
+  border-radius: 50%;
+  margin-bottom: 50px;
+  height: 350px;
+  width: 350px;
+}
+.img-fluid-r {
+  height: 400px;
 }

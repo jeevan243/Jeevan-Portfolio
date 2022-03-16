@@ -14,7 +14,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home3() {
- // const resumeLink = "https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
+  // const resumeLink = "https://drive.google.com/file/d/1CjDzuzfKJDSVTbJmcck-UgbjOllpzz6U/view?usp=sharing";
 
   return (
     <Container fluid className="home-about-section" id="about">
@@ -73,7 +73,6 @@ function Home3() {
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
         </Row>
