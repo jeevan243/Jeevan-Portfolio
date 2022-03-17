@@ -46,7 +46,7 @@ function Projects() {
               isDeploy={true}
               isAblog={true}
               title="American Eagle"
-              description="It is an e-commerce web application that allows users to buy men's and women's clothing online. We were a five-person team that worked on this project for five days. The Landing Page is my contribution to this project."
+              description="It is an e-commerce web application that allows users to buy men's and women's clothing online. We were a five-person team that worked on this project for five days. The Landing Page is my contribution to this project. We have built a complete e-commerce flow."
               link="https://github.com/jeevan243/American-Eagle-Web"
               links="https://jeevan243.github.io/American-Eagle-Web/index.html"
               blog="https://medium.com/@jeevanprasad243/our-project-american-eagle-clone-f5e2894b57d4"
