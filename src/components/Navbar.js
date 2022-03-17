@@ -80,7 +80,7 @@ function NavBar() {
                 to="skills"
                 onClick={() => updateExpanded(false)}
               >
-                <VscTools style={{ marginBottom: "2px" }} /> skills
+                <VscTools style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
