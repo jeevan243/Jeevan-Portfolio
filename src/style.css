@@ -541,7 +541,7 @@ html {
 
 .about-section {
   position: relative !important;
-  padding-top: 20px !important;
+  padding-top: 50px !important;
   padding-bottom: 20px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -743,8 +743,13 @@ html {
   border-radius: 50%;
   margin-bottom: 50px;
   height: 320px;
-
 }
 .img-fluid-r {
-  height: 400px;
+  height: 350px;
+  border-radius: 5px;
+  margin-right: 50px;
 }
+
+/* .stack {
+  padding-top: 50px;
+} */

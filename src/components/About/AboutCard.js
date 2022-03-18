@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Jeevan Prasad  </span>
             from <span className="purple"> Hyderabad, Telangana , India.</span>
-            <br />I am a Graduate specialized in Mechanical Engineering and A Full Stack Web Developer by choice
+            <br />I am a Graduate specialized in Mechanical Engineering and A Full Stack Web Developer by choice.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -20,7 +20,7 @@ function AboutCard() {
               <ImPointRight /> Playing Cricket
             </li>
             <li className="about-activity">
-              <ImPointRight /> Gym 
+              <ImPointRight /> Gym
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

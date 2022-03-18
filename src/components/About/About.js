@@ -77,22 +77,22 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid-r" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-        Skills 
+        <div className="stack"><h1 className="project-heading">
+          Skills
         </h1>
 
-        <Techstack />
+          <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+          <h1 className="project-heading">
+            <strong className="purple">Tools</strong> I use
+          </h1>
+          <Toolstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">IDEs'</strong> I code in
-        </h1>
-        <IDE />
-
+          <h1 className="project-heading">
+            <strong className="purple">IDEs'</strong> I code in
+          </h1>
+          <IDE />
+        </div>
         {/* <Github /> */}
       </Container>
     </Container>

@@ -30,9 +30,7 @@ function Home() {
 
               <div style={{ padding: 50, paddingLeft: 50, paddingBottom: 0, textAlign: "left" }}>
                 <Type />
-                <p style={{ paddingTop: 40, textAlign: "justify" }}> I enjoy having my developments live on the internet.
-                  I've had an interest in web development since I was in college.
-                  I made the decision to begin my professional career in this field. </p>
+                <p style={{ paddingTop: 40, textAlign: "justify" }}>I've been interested in web development since I was in college, which led to a career as a Full-Stack Web Developer with a focus on MERN Stack, JavaScript, HTML, and CSS. </p>
               </div>
 
 
