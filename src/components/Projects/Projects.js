@@ -26,6 +26,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={webjinkeplayer}
+              isBlog={false}
+              isDeploy={true}
+              isAblog={true}
+              title="Soundcloud"
+              description="SoundCloud is a online audio distribution platform and music sharing website that enables its users to upload, promote, and share audio, as well as a digital signal processor enabling listeners to stream audio."
+              links="https://web-jinke-music.vercel.app/"
+              link="https://github.com/BhaveshSuthar00/soundCld-client-side"
+              // blog="https://medium.com"
+              techstack="TECH-STACKS : ReactJs, mongoDb, Express.js, Node.js, react-jinke-music-player"
+              storage="DATABASE : MongoDb Atlas & Served by Heroku."
+
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={purplleBack}
               isBlog={false}
               isDeploy={true}
@@ -74,22 +90,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={webjinkeplayer}
-              isBlog={false}
-              isDeploy={true}
-              isAblog={true}
-              title="Soundcloud"
-              description="SoundCloud is a online audio distribution platform and music sharing website that enables its users to upload, promote, and share audio, as well as a digital signal processor enabling listeners to stream audio."
-              links="https://web-jinke-music.vercel.app/"
-              link="https://github.com/BhaveshSuthar00/soundCld-client-side"
-              // blog="https://medium.com"
-              techstack="TECH-STACKS : ReactJs, mongoDb, Express.js, Node.js, react-jinke-music-player"
-              storage="DATABASE : MongoDb Atlas & Served by Heroku."
 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
