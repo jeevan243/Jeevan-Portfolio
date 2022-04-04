@@ -6,7 +6,8 @@ import Particle from "../Particle";
 import purplleBack from "../../Assets/Projects/flatheads-backend.jpg";
 import purplleFront from "../../Assets/Projects/flatheads-frontend.jpg";
 import desertCart from "../../Assets/Projects/americaneagle.jpg";
-// import mentoHome from "../../Assets/Projects/mentoHome.png";
+import webjinkeplayer from "../../Assets/Projects/webjinkeplayer.jpg"
+
 
 
 
@@ -73,22 +74,22 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mentoHome}
+              imgPath={webjinkeplayer}
               isBlog={false}
               isDeploy={true}
               isAblog={true}
-              title="Mento"
-              description=""
-              links="https://.netlify.app/"
-              link="https://github.com/"
-              blog="https://medium.com"
-              techstack = "TECH-STACKS : ReactJs, mongoDb, Express.js, Node.js, react-player, react-router-dom, Styled-Components "
-              storage = "DATABASE : MongoDb Atlas & Served by Heroku." 
+              title="Soundcloud"
+              description="SoundCloud is a online audio distribution platform and music sharing website that enables its users to upload, promote, and share audio, as well as a digital signal processor enabling listeners to stream audio."
+              links="https://web-jinke-music.vercel.app/"
+              link="https://github.com/BhaveshSuthar00/soundCld-client-side"
+              // blog="https://medium.com"
+              techstack="TECH-STACKS : ReactJs, mongoDb, Express.js, Node.js, react-jinke-music-player"
+              storage="DATABASE : MongoDb Atlas & Served by Heroku."
 
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
