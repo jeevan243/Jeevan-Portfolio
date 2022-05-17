@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Jeevan Prasad  </span>
             from <span className="purple"> Hyderabad, Telangana , India.</span>
-            <br />I am a Graduate specialized in Mechanical Engineering and A Full Stack Web Developer by choice.
+            <br />I am always interested in learning new technologies and enjoy creating scalable web applications.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
