@@ -15,7 +15,7 @@ import {
 
 import { VscTools } from "react-icons/vsc";
 
-import pdf from "../Assets/jeevan_prasad.pdf";
+
 import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
@@ -31,7 +31,7 @@ function NavBar() {
     }
   }
 
-  const resumeLink = "https://drive.google.com/file/d/1mLIi-fd0sclDvwJDk95HQ4jviBWqdmzZ/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1tO1oHn4bi7Xg2sC-vdaIX1Zc8W5raRJ4/view?usp=sharing";
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -98,7 +98,7 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-              <Button variant="primary" href={pdf} target="_blank" className="fork-btn-inner">
+              <Button variant="primary" href={resumeLink} target="_blank" className="fork-btn-inner">
                 &nbsp;Resume
               </Button>
             </Nav.Item>
