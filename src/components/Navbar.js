@@ -31,7 +31,8 @@ function NavBar() {
     }
   }
 
-  const resumeLink = "https://drive.google.com/file/d/1tO1oHn4bi7Xg2sC-vdaIX1Zc8W5raRJ4/view?usp=sharing";
+  // const resumeLink = "https://drive.google.com/file/d/1tO1oHn4bi7Xg2sC-vdaIX1Zc8W5raRJ4/view?usp=sharing";
+  const resumeLink = 'https://drive.google.com/drive/u/0/folders/1JHPux_QUR9V9IITLoGpIGszRRK5EcnKl'
 
   window.addEventListener("scroll", scrollHandler);
 
