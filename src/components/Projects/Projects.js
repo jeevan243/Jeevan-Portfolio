@@ -2,15 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
 import purplleBack from "../../Assets/Projects/flatheads-backend.jpg";
-import purplleFront from "../../Assets/Projects/flatheads-frontend.jpg";
 import desertCart from "../../Assets/Projects/americaneagle.jpg";
 import webjinkeplayer from "../../Assets/Projects/webjinkeplayer.jpg"
-
-
-
-
 
 function Projects() {
   return (

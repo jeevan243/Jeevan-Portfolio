@@ -12,11 +12,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { VscTools } from "react-icons/vsc";
-
-
-import { AiOutlineDownload } from "react-icons/ai";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function NavBar() {
@@ -33,7 +29,6 @@ function NavBar() {
 
   // const resumeLink = "https://drive.google.com/file/d/1tO1oHn4bi7Xg2sC-vdaIX1Zc8W5raRJ4/view?usp=sharing";
   const resumeLink = 'https://drive.google.com/file/d/1JkZgxOi4T1KIi7l0x_AKPJyeSmNoetgK/view'
-
   window.addEventListener("scroll", scrollHandler);
 
   return (
