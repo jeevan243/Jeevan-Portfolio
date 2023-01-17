@@ -78,10 +78,11 @@ function Projects() {
         </h1>
         <h2 className="project-heading">
           Chace Technologies Private Limited </h2>
-        <p style={{ font: '20px', color: 'white' }}>Jan 2022 to Present</p>
+        <p style={{ font: '20px', color: 'white' }}>Working for Chace Technologies as a Software
+          developer since 1+ years.</p>
 
         <p style={{ color: "white" }}>
-          Here are a few products I've worked at Chace
+        Here are some of the products on which I've worked at Chace.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
