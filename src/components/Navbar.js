@@ -11,6 +11,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineLaptop,
 } from "react-icons/ai";
 import { VscTools } from "react-icons/vsc";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -73,7 +74,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="skills"
+                to="skills" spy={true} smooth={true}
                 onClick={() => updateExpanded(false)}
               >
                 <VscTools style={{ marginBottom: "2px" }} /> Skills
@@ -90,6 +91,18 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="work-experience" spy={true} smooth={true}
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineLaptop
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Work
               </Nav.Link>
             </Nav.Item>
 

@@ -72,7 +72,7 @@ function Projects() {
           </Col>
         </Row>
       </Container>
-      <Container>
+      <Container id="work-experience">
         <h1 className="project-heading">
           <strong className="purple">Work Experience </strong>
         </h1>
