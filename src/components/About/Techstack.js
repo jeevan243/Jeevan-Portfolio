@@ -9,6 +9,7 @@ import {
   DiCss3,
   DiNpm,
   DiGit,
+  DiPostgresql,
 } from "react-icons/di";
 
 import { SiRedux, SiRedis } from "react-icons/si";
@@ -65,6 +66,12 @@ function Techstack() {
         <DiGit />
         <h3>Git</h3>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+        <h3>PostgreSQL</h3>
+      </Col>
+      
+      
     </Row>
   );
 }

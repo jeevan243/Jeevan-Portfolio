@@ -30,10 +30,9 @@ function Home() {
 
               <div style={{ padding: 50, paddingLeft: 50, paddingBottom: 0, textAlign: "left" }}>
                 <Type />
-                <p style={{ paddingTop: 40, textAlign: "justify" }}>I've been interested in web development since I was in college, which led to a career as a Full-Stack Web Developer with a focus on MERN Stack, JavaScript, HTML, and CSS. </p>
+                <p style={{ paddingTop: 40, textAlign: "justify" }}>I've been interested in web development since I was in college, which led to a career as a Full-Stack Web Developer with a focus on MERN Stack, JavaScript, HTML, and CSS.  </p>
+                <p style={{ paddingTop: 40, textAlign: "justify" }}>Towards the end of the course at Masai, I joined Chace Technologies. Chace, the parent company, has multiple products. I have worked on the projects Lockr, Leadoff, Chace Dashboard, Lockr Dashboard, and Lockr Finance. For these project’s tech stack, we used NodeJs, Typescript, Javascript, Fatsify, PostgreSQL, Nextjs, Tailwind CSS, MongoDb, and Prisma ORM. I performed well on all projects.</p>
               </div>
-
-
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={jeevanPic} alt="home pic" className="img-fluid1" />

@@ -5,6 +5,11 @@ import Particle from "../Particle";
 import purplleBack from "../../Assets/Projects/flatheads-backend.jpg";
 import desertCart from "../../Assets/Projects/americaneagle.jpg";
 import webjinkeplayer from "../../Assets/Projects/webjinkeplayer.jpg"
+import leadoff from "../../Assets/Projects/leadfoff/leadoff.jpg";
+import letslockr from "../../Assets/Projects/letslockr/letslockr.jpg";
+import lockrFinance from "../../Assets/Projects/lockrfinance/lockrfinance.jpg";
+import chaceDashboard from "../../Assets/Projects/chaceDashboard/chacedashboard.jpg";
+import lockrDashboard from "../../Assets/Projects/lockrDashboard/lockrdashboard.jpg"
 
 function Projects() {
   return (
@@ -15,7 +20,7 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -65,25 +70,101 @@ function Projects() {
 
             />
           </Col>
+        </Row>
+      </Container>
+      <Container>
+        <h1 className="project-heading">
+          <strong className="purple">Work Experience </strong>
+        </h1>
+        <h2 className="project-heading">
+          Chace Technologies Private Limited </h2>
+        <p style={{ font: '20px', color: 'white' }}>Jan 2022 to Present</p>
 
-          {/* <Col md={4} className="project-card">
+        <p style={{ color: "white" }}>
+          Here are a few products I've worked at Chace
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={purplleFront}
+              imgPath={leadoff}
               isBlog={false}
               isDeploy={true}
               isAblog={true}
-              title="Flatheads"
-              description="Flatheads is an online application that acts as an e-commerce platform for people to purchase various sneakers. We were a six-person team that worked on this project for five days. Product page is my contribution to this project. We mainly focused on developing Frontend in this project."
-              links="https://flatheads-clone.vercel.app/"
-              link="https://github.com/jeevan243/Flatheads-Clone"
-              blog="https://medium.com/@jeevanprasad243/flatheads-clone-construct-week-unit-3-e930d77278c"
-              techstack="TECH-STACKS : HTML, CSS, DOM, ES6 JS, localStorage concept"
-              storage="DATABASE : Local Storage"
+              title="Leadoff"
+              description="Leadoff is a world-class unlisted equity market gateway, where investors of all levels can buy unlisted shares online securely. We are teleporting you to the front row to access some of the most lucrative companies before IPO. Join a new generation of investors."
+              links="https://www.joinleadoff.com/"
+              link="#"
+              blog="https://decentro.tech/blog/https-decentro-tech-blog-leadoff-case-study/"
+              techstack="TECH-STACK: MongoDB, PostgreSQL, Fastify, Express.js, Node.js, Typescript, Prisma ORM, Next.js, Tilwind CSS"
+              storage="DATABASE: PostgreSQL, PG Admin, MongoDb"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={letslockr}
+              isBlog={false}
+              isDeploy={true}
+              isAblog={true}
+              title="Lets Lockr"
+              description="Lockr is building banking for eCommerce Merchants and Startups. Your account comes with
+              Checking account
+              Savings account
+              Credit cards (Virtual & Physical)
+              Check payments
+              Domestic and international wire transfers"
+              link="#"
+              links="https://www.letslockr.com/"
+              blog="https://www.producthunt.com/products/get-paid-in-us-dollars-anytime-anywhere"
+              techstack="TECH-STACK: PostgreSQL, Fastify, Express.js, Node.js, Typescript, Prisma ORM"
+              storage="DATABASE: PostgreSQL, PG Admin"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lockrFinance}
+              isBlog={false}
+              isDeploy={true}
+              isAblog={true}
+              title="Lockr Finance"
+              description="Lockr Finance is a crypto lending project that allows users to borrow USDC in exchange for their BTC / ETH. Lockr is the best place to borrow against Bitcoin and Ether without spending it."
+              link="#"
+              links="http://lockrfinance.com/"
+              blog="https://medium.com/@lockrfinance"
+              techstack="TECH-STACK: PostgreSQL, Fastify, Express.js, Node.js, Typescript, Prisma ORM, Next.js, Tilwind CSS"
+              storage="DATABASE: PostgreSQL, PG Admin, MongoDb"
 
             />
           </Col>
- */}
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chaceDashboard}
+              isBlog={false}
+              isDeploy={true}
+              isAblog={true}
+              title="Chace Dashboard"
+              description="Chace Dashboard is a dashboard from which an admin can access all users and unlisted shares data of the leadoff users."
+              link="#"
+              links="https://partner.chace.co.in/"
+              blog="#"
+              techstack="TECH-STACK: PostgreSQL, Fastify, Express.js, Node.js, Typescript, Prisma ORM, Next.js, Tilwind CSS"
+              storage="DATABASE: PostgreSQL, PG Admin"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lockrDashboard}
+              isBlog={false}
+              isDeploy={true}
+              isAblog={true}
+              title="Lockr Dahsboard"
+              description="Lockr Dashboard is a dashboard from which an admin can access all users and users data of the lockr."
+              link="#"
+              links="https://partner.letslockr.com/"
+              blog="#"
+              techstack="TECH-STACK: PostgreSQL, Fastify, Express.js, Node.js, Typescript, Prisma ORM, Next.js, Tilwind CSS"
+              storage="DATABASE: PostgreSQL, PG Admin"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
