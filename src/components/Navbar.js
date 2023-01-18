@@ -80,19 +80,6 @@ function NavBar() {
                 <VscTools style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="projects" spy={true} smooth={true}
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -103,6 +90,18 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Work
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="projects" spy={true} smooth={true}
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
               </Nav.Link>
             </Nav.Item>
 

@@ -12,6 +12,7 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  overflow-x: hidden;
 }
 
 .purple {
@@ -343,7 +344,7 @@ html {
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 5px !important;
-  display: inline-block !important;
+  display: flex !important;
   position: relative !important;
   padding-inline-start: 0 !important;
 }

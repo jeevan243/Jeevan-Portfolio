@@ -34,7 +34,7 @@ function Home() {
                 <p style={{ paddingTop: 40, textAlign: "justify" }}>Towards the end of the course at Masai, I joined Chace Technologies. Chace, the parent company, has multiple products. I have worked on the projects Lockr, Leadoff, Chace Dashboard, Lockr Dashboard, and Lockr Finance. For these project’s tech stack, we used NodeJs, Typescript, Javascript, Fatsify, PostgreSQL, Nextjs, Tailwind CSS, MongoDb, and Prisma ORM. I performed well on all projects.</p>
               </div>
             </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ display :"flex", alignItems: "center", justifyContent: "center" }}>
               <img src={jeevanPic} alt="home pic" className="img-fluid1" />
             </Col>
           </Row>
