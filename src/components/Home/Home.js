@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import jeevanPic from "../../Assets/jeevan_prasad.png";
+import jeevanPic from "../../Assets/jeevan_prasad.jpeg";
 import Particle from "../Particle";
 import Type from "./Type";
 import "../../../src/style.css"
